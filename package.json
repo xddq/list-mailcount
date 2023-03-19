@@ -1,6 +1,6 @@
 {
   "name": "list-mailcount",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Simple cli tool to list all emails, group them by their domain and display the cumulated sum.",
   "main": "dist/index.js",
   "source": "dist/index.js",
