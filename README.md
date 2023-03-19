@@ -61,7 +61,3 @@ cumulated sum.
 
 - If you want to check the mails for multiple accounts, simply add another
   object to the array.
-
-# TODO
-
-- create github repo
