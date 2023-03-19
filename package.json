@@ -1,0 +1,47 @@
+{
+  "name": "list-mailcount",
+  "version": "1.0.6",
+  "description": "Simple cli tool to list all emails, group them by their domain and display the cumulated sum.",
+  "main": "dist/index.js",
+  "source": "dist/index.js",
+  "bin": {
+    "list-mailcount": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch-ts": "tsc -w",
+    "test": "echo \"no tests yet\"",
+    "semver-patch": "npm version patch -f",
+    "semver-minor": "npm version minor -f",
+    "publish": "npm publish",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xddq/list-mailcount.git"
+  },
+  "keywords": [
+    "list",
+    "mail",
+    "imap",
+    "count",
+    "unspam",
+    "email"
+  ],
+  "author": "Pierre Dahmani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xddq/list-mailcount/issues"
+  },
+  "homepage": "https://github.com/xddq/list-mailcount#readme",
+  "dependencies": {
+    "@sinclair/typebox": "0.25.24",
+    "imap": "0.8.19"
+  },
+  "devDependencies": {
+    "@types/imap": "0.8.35",
+    "@types/node": "18.15.3",
+    "prettier": "2.8.4",
+    "typescript": "4.9.5"
+  }
+}
